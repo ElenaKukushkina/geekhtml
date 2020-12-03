@@ -32,8 +32,6 @@
     padding-left: 30px;
 }
 
-.header-item {}
-
 .about-product {
     color: #445162;
     display: flex;
@@ -218,6 +216,7 @@
     margin-top: 5px;
     border-radius: 5px;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .footer {
@@ -246,6 +245,7 @@
     width: 500px;
     margin-bottom: 20px;
     border-radius: 10px;
+    display: block;
 }
 
 .textarea {
@@ -254,6 +254,7 @@
     margin-bottom: 20px;
     border-radius: 10px;
     font-family: Arial;
+    display: block;
 }
 
 ::-webkit-input-placeholder {
