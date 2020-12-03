@@ -233,7 +233,76 @@
     margin-bottom: 50px;
 }
 
-.form {}
+.footer-info {
+    display: flex;
+}
+
+.form {
+    margin-left: 250px;
+}
+
+.input {
+    height: 40px;
+    width: 500px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.textarea {
+    height: 170px;
+    width: 500px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: Arial;
+}
+
+::-webkit-input-placeholder {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+::-moz-placeholder {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+:-moz-placeholder {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+:-ms-input-placeholder {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.feedback-button {
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.contacts-box {
+    margin-left: 50px;
+}
+
+.list-footer {
+    list-style: none;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #fff;
+}
 
 .copyright {
     color: #445162;
